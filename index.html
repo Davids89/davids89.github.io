@@ -11,32 +11,36 @@
   <script src="../components/platform/platform.js">
   </script>
 
+  <!--Para importar la fuente Roboto-->
   <link rel="import" href="../components/font-roboto/roboto.html">
 
-  <style>
-  html,body {
-    height: 100%;
-    margin: 0;
-    background-color: #E5E5E5;
-    font-family: 'RobotoDraft', sans-serif;
-  }
-  .container {
-    width: 80%;
-    margin: 50px auto;
-  }
-  @media (min-width: 481px) {
-    #tabs {
-      width: 200px;
-    }
-    .container {
-      width: 400px;
-    }
-  }
-  </style>
+  <!--Esto es para importar el core de Polymer-->
+  <link rel="import" href="../components/core-header-panel/core-header-panel.html">
+
+  <!--Esto es para importar core-toolbar de Polymer-->
+  <link rel="import" href="../components/core-toolbar/core-toolbar.html">
+
+  <!--Esto para importar los paper-tabs-->
+  <link rel="import" href="../components/paper-tabs/paper-tabs.html">
+
+  <link rel="stylesheet" href="./css/style.css">
 
 </head>
 
 <body unresolved>
+
+  <core-header-panel>
+
+    <core-toolbar>
+      <paper-tabs id="tabs" selected="all" self-end>
+        <paper-tab name="all">All</paper-tab>
+        <paper-tab name="favorites">Favorites</paper-tab>
+      </paper-tabs>
+    </core-toolbar>
+
+  <!-- main page content will go here --> 
+
+  </core-header-panel>
 
 </body>
 
