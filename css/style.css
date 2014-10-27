@@ -1,14 +1,16 @@
 html,body {
     height: 100%;
     margin: 0;
-    background-color: #E5E5E5;
+    background-color: #99cc00;
     font-family: 'RobotoDraft', sans-serif;
   }
-  .container {
+
+.container {
     width: 80%;
     margin: 50px auto;
   }
-  @media (min-width: 481px) {
+
+@media (min-width: 481px) {
     #tabs {
       width: 200px;
     }
@@ -24,16 +26,24 @@ core-header-panel {
 }
 
 core-toolbar {
-  background: #ff4444;
+  background: #669900;
   color: white;
+  height: 200px;
 }
 
 #tabs {
-  width: 100%;
+  width: 30%;
   margin: 0;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
   text-transform: uppercase;
+}
+
+#principal
+{
+  width: 80%;
+  margin: 0 auto;
+  background-color: #ffffff;
 }
