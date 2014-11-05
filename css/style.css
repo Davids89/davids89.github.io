@@ -41,9 +41,24 @@ core-toolbar {
   text-transform: uppercase;
 }
 
-#principal
+#cards 
 {
-  width: 80%;
+  width: 50%;
+  height: 100%;
   margin: 0 auto;
-  background-color: #ffffff;
+  background: #99cc00;
+  overflow: auto;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+}
+
+polymer-ui-card 
+{
+    display: block;
+    background: #eee;
+    height: 100%;
+    width: 90%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 20px;
 }

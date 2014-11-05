@@ -25,6 +25,10 @@
 
   <link rel="stylesheet" href="./css/style.css">
 
+  <link rel="import" href="polymer-ui-card.html"><!-- esto importa los polymer-ui-cards-->
+
+  <link rel="import" href="components/paper-elements/paper-elements.html"><!-- importa los paper elements -->
+
 </head>
 
 <body unresolved>
@@ -39,19 +43,15 @@
       </paper-tabs>
     </core-toolbar>
 
-  <!-- main page content will go here --> 
+  <!-- si el contenido se coloca fuera del header panel queda fuera de pantalla y no se coloca tal y como esta --> 
+
+  <div id="cards">
+    <polymer-ui-card>Titulo</polymer-ui-card>
+    <polymer-ui-card>Swipe Me!</polymer-ui-card>
+    <polymer-ui-card>Swipe Me!</polymer-ui-card>
+  </div>
 
   </core-header-panel>
-
-  <main><!--main representa el contenido principal de una web. No puede descender de <article><aside><footer><header> o <nav>-->
-    <section><!--sirve para agrupar documentos-->
-
-        <div id = "principal">
-          <p>Caca</p>
-        </div>
-
-    </section>
-  </main>
 
   <!--Este script maneja los evetos de cambio de tabs-->
 
