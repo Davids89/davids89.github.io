@@ -1,19 +1,26 @@
-# Polymer Starter Project
+# [Start Bootstrap](http://startbootstrap.com/) - [Freelancer](http://startbootstrap.com/template-overviews/freelancer/)
 
-This project includes a set of Polymer components and a starter project,
-designed to be used with the [Polymer tutorial](http://polymer-project.org/docs/start/tutorial/intro.html).
+[Freelancer](http://startbootstrap.com/template-overviews/freelancer/) is a one page freelancer portfolio theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This theme features several content sections, a responsive portfolio grid with hover effects, full page portfolio item modals, and a working PHP contact form.
 
-In this tutorial, you build a simple client for `unquote`, the read-only social networking service.
+## Getting Started
 
+To use this theme, choose one of the following options to get started:
+* Download the latest release on Start Bootstrap
+* Fork this repository on GitHub
 
-## Project contents
+## Bugs and Issues
 
- -   `starter`. Scaffolding for the starter project. If you're working through the tutorial, start here!
- -   `step-1` to `step-3`. Intermediate versions of the project. Check your work!
- -   `finished`. The completed `unquote` app.
- -   `components`. Selection of Polymer elements used in the project.
- -   `post-service`. A pre-built element that implements an interface to the `unquote` service. 
- -   `api`. Data for the the `unquote` service.
- -   `images`. Avatar images.
+Have a bug or an issue with this theme? [Open a new issue](https://github.com/IronSummitMedia/startbootstrap-freelancer/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/freelancer/).
 
-Find a problem in the tutorial? Please open a [Doc bug](https://github.com/Polymer/docs/issues/new) so we can fix it.
+## Creator
+
+Start Bootstrap was created by and is maintained by **David Miller**, Managing Parter at [Iron Summit Media Strategies](http://www.ironsummitmedia.com/).
+
+* https://twitter.com/davidmillerskt
+* https://github.com/davidtmiller
+
+Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
+
+## Copyright and License
+
+Copyright 2014 Iron Summit Media Strategies, LLC. Code released under the [Apache 2.0](https://github.com/IronSummitMedia/startbootstrap-freelancer/blob/gh-pages/LICENSE) license.
