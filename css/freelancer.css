@@ -16,6 +16,10 @@ p.small {
     font-size: 16px;
 }
 
+.modal-backdrop{
+display:none
+}
+
 a,
 a:hover,
 a:focus,
